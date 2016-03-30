@@ -4,8 +4,8 @@
 <target name="delete">
 <delete dir="bin"/>
 <delete dir="lib"/>
-
-<target name="create" deepends="delete">
+</target>
+<target name="create" depends="delete">
 <mkdir dir="bin"/>
 <mkdir dir="lib"/>
 </target>
