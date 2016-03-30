@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <project name="test" default="create" basedir=".">
-<target name="create">
+
+<target name="delete">
+<delete dir="bin"/>
+<delete dir="lib"/>
+
+<target name="create" deepends="delete">
 <mkdir dir="bin"/>
 <mkdir dir="lib"/>
 </target>
+
 <target name="print1">
 <echo>Welcome to all</echo>
 </target>
