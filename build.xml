@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="test" default="print1" basedir=".">
+<target name="create">
+<mkdir dir="bin"/>
+<mkdir dir="lib"/>
+</target>
+<target name="print1">
+<echo>Welcome to all</echo>
+</target>
+</project>
