@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="test" default="print1" basedir=".">
-<target name="create">
+<target name="delete">
 <mkdir dir="bin"/>
 <mkdir dir="lib"/>
 </target>
